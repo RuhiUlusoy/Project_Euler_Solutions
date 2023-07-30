@@ -17,6 +17,7 @@ fun main(args : Array<String>) {
         }
     }
 
+   //Write prime numbers from 2 to 20
    var x = 20
     for (i in 2..x){
         if (checkPrime(i)){
