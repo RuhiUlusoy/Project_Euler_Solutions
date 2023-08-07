@@ -3,11 +3,11 @@ fun main(args : Array<String>) {
     var sum1 = 1
     for(i in 1..20){
         if (i == 1 || i == 2){
-            print("F$i = $sum0 ")
+            println("F$i = $sum0 ")
         }
         else{
           var sum2 = sum0 + sum1
-          print("F$i = $sum2 ")
+          println("F$i = $sum2 ")
           sum0 = sum1
           sum1 = sum2
         }
